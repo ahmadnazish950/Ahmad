@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        align-items: center;
+        margin: 9px auto;
+    }
+
+    nav ul {
+        justify-content: center;
+        height: 35px;
+    }
+
+    .search {
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .slider img {
+        width: 70vw;
+        height: 45vh;
+    }
+    .card{
+        overflow: hidden;
+    }
+    .cards{
+        height: 185px;
+    }
+    .card-item img{
+        width: 85px;
+    }
+    .lines{
+        font-size: x-small;
+        color: rgb(207, 196, 46);
+    }
+}

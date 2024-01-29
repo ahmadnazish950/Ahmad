@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #201f1e;
+}
+
+header {
+
+    background-color: rgb(220, 224, 90);
+
+}
+
+nav {
+    display: flex;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+img {
+    height: 52px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 23px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+nav ul li a:hover {
+
+    font-weight: normal;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    padding: 0 10px;
+}
+
+.btn {
+    height: 25px;
+    margin: 0px 0px 0px 14px;
+    padding: 2px 7px;
+    cursor: pointer;
+    border: 3px solid #81198a;
+    border-radius: 5px;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+.container {
+    min-height: calc(100vh - 52px - 75px);
+}
+
+.slider {
+    margin: 17px auto;
+    width: 68vw;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 71vw;
+    height: 95vh;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #d0cf68;
+}
+
+
+
+.card {
+    max-width: 85vw;
+    margin: 35px auto;
+    
+}
+
+.cards {
+    display: flex;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 24px;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+.lines{
+    color: rgb(207, 196, 46);
+}
+
+.my-1 {
+    margin: 5px 0px;
+}
+
+.my-2 {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+footer {
+    height: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+
+}
